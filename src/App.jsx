@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Button from "./components/Button";
 
 const App = () => {
   return (
-    <div>Hello World!</div>
-  )
-}
+    <div className="font-inter">
+      <Navbar />
+      <Hero />
+    </div>
+  );
+};
 
-export default App
+export default App;
