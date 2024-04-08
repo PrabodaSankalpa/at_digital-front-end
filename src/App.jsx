@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Button from "./components/Button";
+import Services from "./components/Services";
 
 const App = () => {
   return (
     <div className="font-inter">
       <Navbar />
       <Hero />
+      <Services />
     </div>
   );
 };

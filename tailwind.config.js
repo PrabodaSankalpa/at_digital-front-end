@@ -39,6 +39,7 @@ export default {
         medium: "22px",
         lg: "36px",
         xl: "48px",
+        heading:"27px"
       },
     },
   },
