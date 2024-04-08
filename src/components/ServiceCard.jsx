@@ -5,7 +5,7 @@ const ServiceCard = ({ imageUrl, title, text, btnUrl, direction }) => {
   return (
     <div
       className={
-        "flex flex-col md:gap-5 xl:gap-[108px] px-5 md:px-10 py-[60px] lg:px-[152px] lg:py-20 xl:px-[188px] items-center " +
+        "flex flex-col md:gap-5 xl:gap-[108px] px-5 md:px-10 my-[60px] lg:px-[152px] lg:my-20 xl:px-[188px] items-center " +
         direction
       }
     >
