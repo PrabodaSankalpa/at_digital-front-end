@@ -8,7 +8,7 @@ const Hero = () => {
       <img
         src={heroImage}
         alt="Hero Image"
-        className="w-full"
+        className="w-full xl:max-h-[700px]"
       />
       <div className="pt-[24px] pb-[32px] px-[20px] md:px-[40px] bg-gradient-to-r from-analogous3 to-analogous2 lg:absolute lg:left-20 lg:bottom-10 lg:w-[622px] xl:w-[630px] lg:h-[306px]">
         <p

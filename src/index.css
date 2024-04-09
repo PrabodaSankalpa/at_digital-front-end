@@ -1,3 +1,4 @@
+/*here I import all fonts using Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato&family=Poppins:wght@600&display=swap");
 
 @tailwind base;

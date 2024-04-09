@@ -6,6 +6,8 @@ import serviceImage02 from "../assets/image_2.png";
 const Services = () => {
   return (
     <div>
+
+      {/* In here is you image in right size add flex-row to direction otherwise add flex-row-reserse */}
       <ServiceCard
         imageUrl={serviceImage02}
         title="Web & Mobile App Development"

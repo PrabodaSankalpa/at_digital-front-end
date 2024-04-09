@@ -13,7 +13,7 @@ const Footer = () => {
             business results.
           </p>
         </div>
-        <div className="md:flex xl:gap-[128px]">
+        <div className="md:flex md:gap-[79px] xl:gap-[128px]">
           <div className="mb-10 w-[216px] lg:w-[255px] xl:w-[197px] md:mb-0">
             <p className="font-semibold text-sm pb-3">Our Technologies</p>
             <div className="text-xs font-medium">

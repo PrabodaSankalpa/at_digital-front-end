@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import FAQS from "./components/FAQS";
@@ -11,8 +11,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Services />
-      <FAQS/>
-      <Footer/>
+      <FAQS />
+      <Footer />
     </div>
   );
 };
