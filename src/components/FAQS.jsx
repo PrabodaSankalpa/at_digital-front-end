@@ -3,7 +3,7 @@ import FAQ from "./FAQ";
 
 const FAQS = () => {
   return (
-    <div className="flex flex-col px-5 md:px-10 lg:px-[152px] xl:px-[297px]">
+    <div className="flex flex-col px-5 md:px-10 lg:px-[152px] xl:px-[297px] my-[60px] md:my-[68px] lg:my-20">
       <p className="text-primary font-poppins font-semibold text-heading text-center tracking-wide leading-[33px] pb-5">
         Frequently asked questions
       </p>

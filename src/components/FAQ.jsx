@@ -45,7 +45,9 @@ const FAQ = ({ title, answer }) => {
         </svg>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-textColorLight2 leading-[30px] md:text-[18px] pt-[13px] ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-textColorLight2 leading-[30px] md:text-[18px] ${
+          accordionOpen ? "pt-[13px]" : ""
+        } ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
